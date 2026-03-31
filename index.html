@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winny Mota | Arquitetura e Urbanismo</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased selection:bg-earth selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-stone-50/90 backdrop-blur-md z-50 border-b border-stone-200 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="font-serif text-xl tracking-widest text-stone-900 font-semibold uppercase">WM</a>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 text-sm tracking-wider uppercase">
+                <a href="#sobre" class="hover:text-earth transition-colors">Sobre</a>
+                <a href="#experiencia" class="hover:text-earth transition-colors">Trajetória</a>
+                <a href="#projetos" class="hover:text-earth transition-colors">Projetos</a>
+                <a href="#contato" class="hover:text-earth transition-colors">Contato</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-stone-800 focus:outline-none" type="button" aria-label="Abrir menu de navegacao">
+                <i class="ph ph-list text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-stone-50 border-t border-stone-200 pb-4 px-6 flex flex-col space-y-4 pt-4 uppercase text-sm tracking-wider">
+            <a href="#sobre" class="hover:text-earth">Sobre</a>
+            <a href="#experiencia" class="hover:text-earth">Trajetória</a>
+            <a href="#projetos" class="hover:text-earth">Projetos</a>
+            <a href="#contato" class="hover:text-earth">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-earth tracking-[0.2em] text-sm uppercase mb-4">Portfólio 2026</p>
+            <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-stone-900 mb-6 tracking-tight">Winny Mota</h1>
+            <h2 class="text-lg md:text-xl font-light tracking-widest uppercase text-stone-500 mb-10">Arquitetura e Urbanismo</h2>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="order-2 md:order-1">
+                <h3 class="font-serif text-3xl md:text-4xl text-stone-900 mb-6">Olá.</h3>
+                <div class="space-y-4 text-stone-600 leading-relaxed font-light">
+                    <p>
+                        Meu nome é Winny Mota, tenho 27 anos, sou brasileira, nascida em Santo Antônio de Jesus (BA) e atualmente moro em Candeias (BA). Recentemente atuei como arquiteta júnior de interiores e arquitetônico no escritório Home Studio 37.
+                    </p>
+                    <p>
+                        Me graduei arquiteta e urbanista pela UNIFACS em 2024 e atuo na área desde então, caminhando para uma carreira com ênfase em arquitetura de interiores, comercial e paisagismo.
+                    </p>
+                    <p>
+                        Por onde trabalhei, pude agregar conhecimento em projeto executivo e detalhamento de interiores e comercial de pequeno à grande porte, consultoria e representação em 3D. Busco me estabelecer em um escritório para aprender e colaborar com a equipe, expandir repertório e contribuir com processos criativos e executivos.
+                    </p>
+                    <p class="font-medium text-stone-800 pt-4">CAU A314472-0</p>
+                </div>
+
+                <div class="mt-10">
+                    <h4 class="text-sm font-semibold tracking-widest uppercase text-stone-400 mb-4">Softwares & Ferramentas</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">AutoCAD</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">SketchUp</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">Layout</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">V-Ray</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">Enscape</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">Archicad</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">Photoshop</span>
+                        <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full">Illustrator</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-1 md:order-2 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl ring-4 ring-stone-50">
+                    <img src="./assets/img/WINNY.jpg" alt="Winny Mota" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência e Formação -->
+    <section id="experiencia" class="py-24 px-6 bg-stone-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="font-serif text-3xl md:text-4xl text-stone-900">Trajetória Profissional</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <!-- Experiência -->
+                <div>
+                    <h4 class="text-xl font-medium tracking-wide text-earth mb-8 border-b border-stone-300 pb-2 flex items-center gap-2">
+                        <i class="ph ph-briefcase"></i> Experiência
+                    </h4>
+                    
+                    <div class="space-y-8 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-stone-300">
+                        <!-- Item 1 -->
+                        <div class="relative pl-8">
+                            <div class="absolute left-0 w-4 h-4 rounded-full bg-earth mt-1.5 -ml-2 border-4 border-stone-100"></div>
+                            <span class="text-sm font-semibold text-earth">2025.1</span>
+                            <h5 class="font-serif text-xl text-stone-900 mt-1">Arquiteta Júnior</h5>
+                            <p class="text-sm font-medium text-stone-500 mb-2">Home Studio 37</p>
+                            <p class="font-light text-stone-600 text-sm leading-relaxed">Elaboração de projeto arquitetônico, projeto executivo de interiores, consultoria e modelagem 3D.</p>
+                        </div>
+                        
+                        <!-- Item 2 -->
+                        <div class="relative pl-8">
+                            <div class="absolute left-0 w-4 h-4 rounded-full bg-stone-300 mt-1.5 -ml-2 border-4 border-stone-100"></div>
+                            <span class="text-sm font-semibold text-stone-500">2024.1 - 2024.2</span>
+                            <h5 class="font-serif text-xl text-stone-900 mt-1">Estágio em Arquitetura</h5>
+                            <p class="text-sm font-medium text-stone-500 mb-2">Bahia Engenharia de Projetos</p>
+                            <p class="font-light text-stone-600 text-sm leading-relaxed">Elaboração de projetos executivos, detalhamentos e modelagem 3D focado no ramo comercial de pequeno à grande porte.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formação -->
+                <div>
+                    <h4 class="text-xl font-medium tracking-wide text-earth mb-8 border-b border-stone-300 pb-2 flex items-center gap-2">
+                        <i class="ph ph-graduation-cap"></i> Formação
+                    </h4>
+                    
+                    <div class="space-y-8 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-stone-300">
+                        <!-- Item 1 -->
+                        <div class="relative pl-8">
+                            <div class="absolute left-0 w-4 h-4 rounded-full bg-earth mt-1.5 -ml-2 border-4 border-stone-100"></div>
+                            <span class="text-sm font-semibold text-earth">2020.1 - 2024.2</span>
+                            <h5 class="font-serif text-xl text-stone-900 mt-1">Bacharelado Arquitetura e Urbanismo</h5>
+                            <p class="text-sm font-medium text-stone-500 mb-2">Universidade Salvador - UNIFACS</p>
+                            <p class="font-light text-stone-600 text-sm leading-relaxed">Ensino superior completo. Salvador, BA, Brasil.</p>
+                        </div>
+                        
+                        <!-- Item 2 -->
+                        <div class="relative pl-8">
+                            <div class="absolute left-0 w-4 h-4 rounded-full bg-stone-300 mt-1.5 -ml-2 border-4 border-stone-100"></div>
+                            <span class="text-sm font-semibold text-stone-500">2015</span>
+                            <h5 class="font-serif text-xl text-stone-900 mt-1">Ensino Médio</h5>
+                            <p class="text-sm font-medium text-stone-500 mb-2">Escola Djalma Pessoa</p>
+                            <p class="font-light text-stone-600 text-sm leading-relaxed">Piatã, Salvador, BA.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <p class="text-earth tracking-[0.2em] text-sm uppercase mb-2">Trabalhos Selecionados</p>
+                <h3 class="font-serif text-3xl md:text-4xl text-stone-900">Portfólio</h3>
+            </div>
+
+            <!-- Grid de Projetos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                
+                <!-- Projeto 1 -->
+                <a href="./projeto.html?id=residencia-u" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Residência U">
+                    <img src="./assets/projetos/residencia-u/capa.png" alt="Casa U" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2021 | Casa Sustentável</span>
+                        <h4 class="text-white font-serif text-2xl">Residência U</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 2 -->
+                <a href="./projeto.html?id=quarto-alice" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Quarto Alice">
+                    <img src="./assets/projetos/quarto-alice/capa.png" alt="Quarto Alice" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2024 | Interiores (Salvador-BA)</span>
+                        <h4 class="text-white font-serif text-2xl">Quarto Alice</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 3 -->
+                <a href="./projeto.html?id=suite-jif" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Suite JIF">
+                    <img src="./assets/projetos/suite-jif/capa.png" alt="Suíte JIF" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2024 | Consultoria (Candeias-BA)</span>
+                        <h4 class="text-white font-serif text-2xl">Suíte JIF</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 4 -->
+                <a href="./projeto.html?id=cozinha-afe" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Cozinha Afe">
+                    <img src="./assets/projetos/cozinha-afe/capa.png" alt="Cozinha Afê" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2025 | Interiores (Candeias-BA)</span>
+                        <h4 class="text-white font-serif text-2xl">Cozinha Afê</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 5 -->
+                <a href="./projeto.html?id=quarto-kaden-closet" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Quarto Kaden e Closet">
+                    <img src="./assets/projetos/quarto-kaden-closet/capa.png" alt="Quarto Kaden" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2025 | Consultoria (S.A. de Jesus-BA)</span>
+                        <h4 class="text-white font-serif text-2xl">Quarto Kaden & Closet</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 6 -->
+                <a href="./projeto.html?id=sala-essencia" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Sala Essencia">
+                    <img src="./assets/projetos/sala-essencia/capa.png" alt="Sala Essência" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2025 | Consultoria (Belo Horizonte-MG)</span>
+                        <h4 class="text-white font-serif text-2xl">Sala Essência</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 7 -->
+                <a href="./projeto.html?id=fachada-lmm" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Fachada LMM">
+                    <img src="./assets/projetos/fachada-lmm/capa.png" alt="Fachada LMM" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2025 | Reforma de Fachada</span>
+                        <h4 class="text-white font-serif text-2xl">Fachada LMM</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 8 -->
+                <a href="./projeto.html?id=mel-pan" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Mel Pan Panificadora">
+                    <img src="./assets/projetos/mel-pan/capa.png" alt="Mel Pan" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2025 | Projeto Comercial</span>
+                        <h4 class="text-white font-serif text-2xl">Mel Pan Panificadora</h4>
+                    </div>
+                </a>
+
+                <!-- Projeto 9 -->
+                <a href="./projeto.html?id=centro-cultural" class="project-card group relative aspect-[4/5] overflow-hidden rounded-sm bg-stone-100 cursor-pointer block" aria-label="Abrir projeto Requalificacao do Centro Cultural">
+                    <img src="./assets/projetos/centro-cultural/capa.png" alt="TFG" class="object-cover w-full h-full transition-transform duration-700 ease-out">
+                    <div class="project-overlay absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-earth/90 text-xs tracking-widest uppercase font-semibold mb-1">2024 | TFG</span>
+                        <h4 class="text-white font-serif text-2xl">Requalificação do Centro Cultural</h4>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Footer -->
+    <footer id="contato" class="bg-stone-900 text-stone-300 py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="font-serif text-3xl md:text-5xl text-white mb-8">Vamos construir algo incrível juntos.</h3>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 mb-12">
+                <a href="mailto:winnypmmota@gmail.com" class="flex items-center gap-3 hover:text-earth transition-colors">
+                    <i class="ph ph-envelope-simple text-2xl"></i>
+                    <span>winnypmmota@gmail.com</span>
+                </a>
+                <a href="https://wa.me/5571996795123" target="_blank" class="flex items-center gap-3 hover:text-earth transition-colors">
+                    <i class="ph ph-whatsapp-logo text-2xl"></i>
+                    <span>+55 71 99679-5123</span>
+                </a>
+            </div>
+
+            <div class="flex justify-center gap-8 border-t border-stone-800 pt-12">
+                <a href="https://instagram.com/winnymota.arq" target="_blank" class="p-4 bg-stone-800 rounded-full hover:bg-earth hover:text-white transition-all">
+                    <i class="ph ph-instagram-logo text-2xl"></i>
+                </a>
+                <a href="https://linkedin.com/in/winnymotaarquitetura" target="_blank" class="p-4 bg-stone-800 rounded-full hover:bg-earth hover:text-white transition-all">
+                    <i class="ph ph-linkedin-logo text-2xl"></i>
+                </a>
+            </div>
+            
+            <p class="mt-12 text-sm text-stone-600 font-light">
+                &copy; 2026 Winny Mota. Candeias, BA. CAU A314472-0
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

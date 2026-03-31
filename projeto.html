@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto | Winny Mota</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/project-data.js" defer></script>
+    <script src="./assets/js/projeto.js" defer></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased selection:bg-earth selection:text-white">
+    <header class="border-b border-stone-200 bg-stone-50/90 backdrop-blur-md sticky top-0 z-40">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="./index.html#projetos" class="inline-flex items-center gap-2 text-sm tracking-wide uppercase text-stone-500 hover:text-earth transition-colors">
+                <i class="ph ph-arrow-left"></i>
+                Voltar
+            </a>
+            <a href="./index.html" class="font-serif text-xl tracking-widest text-stone-900 font-semibold uppercase">WM</a>
+        </div>
+    </header>
+
+    <main class="py-10 md:py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+            <p id="project-meta" class="text-earth tracking-[0.2em] text-xs uppercase mb-3">Projeto</p>
+            <h1 id="project-title" class="font-serif text-4xl md:text-6xl text-stone-900 mb-5">Carregando projeto...</h1>
+            <p id="project-summary" class="text-stone-600 max-w-3xl leading-relaxed mb-10"></p>
+
+            <section class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div class="lg:col-span-2">
+                    <div class="rounded-sm overflow-hidden bg-stone-100 shadow-sm border border-stone-200">
+                        <img id="project-main-image" src="" alt="Imagem principal do projeto" class="w-full h-[280px] md:h-[520px] object-cover">
+                    </div>
+                    <div id="project-thumbnails" class="mt-4 grid grid-cols-3 sm:grid-cols-4 gap-3"></div>
+
+                    <div class="mt-8 border-t border-stone-200 pt-6 flex items-center justify-between gap-4">
+                        <a id="project-prev-link" href="./index.html#projetos" class="inline-flex items-center gap-2 text-sm uppercase tracking-wide text-stone-500 hover:text-earth transition-colors">
+                            <i class="ph ph-arrow-left"></i>
+                            Projeto anterior
+                        </a>
+                        <a id="project-next-link" href="./index.html#projetos" class="inline-flex items-center gap-2 text-sm uppercase tracking-wide text-stone-500 hover:text-earth transition-colors">
+                            Próximo projeto
+                            <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <aside class="lg:col-span-1">
+                    <div class="bg-white border border-stone-200 rounded-sm p-6 md:p-8 mb-6">
+                        <h2 class="font-serif text-2xl text-stone-900 mb-4">Descrição</h2>
+                        <p id="project-description" class="text-stone-600 leading-relaxed"></p>
+                    </div>
+
+                    <div class="bg-white border border-stone-200 rounded-sm p-6 md:p-8 mb-6">
+                        <h3 class="font-serif text-xl text-stone-900 mb-4">Detalhes</h3>
+                        <dl class="space-y-3 text-sm text-stone-600">
+                            <div>
+                                <dt class="font-semibold uppercase tracking-wide text-stone-500">Escopo</dt>
+                                <dd id="project-scope" class="mt-1"></dd>
+                            </div>
+                            <div>
+                                <dt class="font-semibold uppercase tracking-wide text-stone-500">Ferramentas</dt>
+                                <dd id="project-tools" class="mt-1"></dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                    <div class="bg-white border border-stone-200 rounded-sm p-6 md:p-8">
+                        <h3 class="font-serif text-xl text-stone-900 mb-4">Pontos de Projeto</h3>
+                        <ul id="project-highlights" class="space-y-2 text-sm text-stone-600 list-disc pl-5"></ul>
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

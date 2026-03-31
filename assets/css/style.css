@@ -1,0 +1,39 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fafaf9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d6d3d1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b48a73;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+.project-thumb {
+    transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.project-thumb:hover {
+    border-color: #b48a73;
+    transform: translateY(-2px);
+}
+
+.project-thumb-active {
+    border-color: #b48a73;
+    box-shadow: 0 0 0 1px #b48a73;
+}
