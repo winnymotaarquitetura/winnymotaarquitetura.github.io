@@ -57,7 +57,7 @@ window.PROJECTS_DATA = {
         year: '2024',
         location: 'Candeias-BA',
         summary: 'Consultoria de interiores para suíte com foco em bem-estar, harmonia visual e melhor aproveitamento do espaço.',
-        description: 'A Suíte JIF foi estruturada a partir de uma leitura das necessidades dos moradores, com atenção especial para conforto e organização. A proposta reforça a sensação de amplitude por meio de escolhas de revestimentos, texturas e pontos de iluminação. O resultado é um ambiente equilibrado, com linguagem elegante e soluções funcionais para o cotidiano.',
+        description: 'Essa suíte é um verdadeiro refúgio que além de acolher traz um toque de naturalidade e equilíbrio, criando um ambiente ideal para relaxar e recarregar as energias.',
         scope: 'Consultoria de interiores com recomendações executivas e especificações.',
         tools: 'SketchUp, V-Ray e AutoCAD.',
         highlights: [
@@ -66,9 +66,9 @@ window.PROJECTS_DATA = {
             'Iluminação pensada para conforto visual noturno.'
         ],
         images: [
+            './assets/projetos/suite-jif/capa.png',
             './assets/projetos/suite-jif/foto-01.png',
-            './assets/projetos/suite-jif/foto-02.png',
-            './assets/projetos/suite-jif/foto-03.png'
+            './assets/projetos/suite-jif/foto-02.png'
         ]
     },
     'cozinha-afe': {
