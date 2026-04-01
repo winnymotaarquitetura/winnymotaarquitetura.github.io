@@ -126,6 +126,7 @@ window.PROJECTS_DATA = {
             'Curadoria de acabamentos para atmosfera acolhedora.'
         ],
         images: [
+            './assets/projetos/sala-essencia/capa.jpeg',
             './assets/projetos/sala-essencia/foto-01.png',
             './assets/projetos/sala-essencia/foto-02.png',
             './assets/projetos/sala-essencia/foto-03.png'
