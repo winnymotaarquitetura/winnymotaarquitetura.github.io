@@ -77,7 +77,7 @@ window.PROJECTS_DATA = {
         year: '2025',
         location: 'Candeias-BA',
         summary: 'Cozinha planejada para unir praticidade operacional, convivência e identidade estética contemporânea.',
-        description: 'Na Cozinha Afe, o projeto priorizou ergonomia e fluxo entre preparo, armazenamento e uso diário. A proposta considera o ambiente como eixo de convivência da casa, articulando funcionalidade com atmosfera acolhedora. Marcenaria sob medida, estudo de bancada e distribuição de equipamentos foram determinantes para o desempenho do espaço.',
+        description: 'A cozinha AFÊ é um espaço que convida ao convívio e transforma o ato de cozinhar em um experiência envolvente. \n\nCada detalhe desta cozinha foi pensado em unir beleza e funcionalidade, o design mescla tons terrosos, verde suave e materiais naturais, criando um espaço descontraído e ao mesmo tempo acolhedor e natural.',
         scope: 'Interiores residenciais com foco em marcenaria e fluxo funcional.',
         tools: 'SketchUp, V-Ray e Layout.',
         highlights: [
@@ -158,7 +158,7 @@ window.PROJECTS_DATA = {
         year: '2025',
         location: 'Bahia, Brasil',
         summary: 'Projeto comercial para panificadora com foco em experiência do cliente, fluxo operacional e fortalecimento de marca.',
-        description: 'No projeto da Mel Pan Panificadora, a estratégia espacial foi orientada por funcionalidade e atratividade comercial. A organização dos setores considera atendimento, exposição e produção, com percursos claros para equipe e clientes. A linguagem visual foi pensada para transmitir acolhimento e reforçar posicionamento do negócio.',
+        description: 'A MEL PAN – Panificadora e Mercadinho ganhou uma nova fachada que transmite modernidade e aconchego.\n\n A combinação de tons claros, tijolinho aparente e vegetação cria uma identidade acolhedora, enquanto a organização do espaço com entrada e saída bem definidas traz mais fluidez ao atendimento. \n\nUm projeto pensado para unir a tradição da padaria com a praticidade do mercadinho, tornando a experiência do cliente ainda mais especial.',
         scope: 'Projeto comercial com setorizacao de atendimento e operacao.',
         tools: 'AutoCAD, SketchUp e Layout.',
         highlights: [
