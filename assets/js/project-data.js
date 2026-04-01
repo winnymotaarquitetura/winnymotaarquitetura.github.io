@@ -39,7 +39,7 @@ window.PROJECTS_DATA = {
         summary: 'Projeto de quarto infantil com proposta lúdica, funcional e atemporal, considerando rotina, estudo e descanso.',
         description: 'Magia e conforto se encontram.\n\nEste quarto de bebê, foi pensado em trazer a magia da história de Alice do paísdas maravilhas transmitindo conforto etranquilidade, ao mesmo tempo cria-seum espaço planejado que acompanha ocrescimento da criança, utilizandodetalhes atemporais e mobiliário neutromantendo a identidade e funcionalidade.',
         scope: 'Consultoria de interiores, layout, marcenaria e visualização 3D.',
-        tools: 'SketchUp, Enscape e Photoshop.',
+        tools: 'SketchUp, V-Ray e Photoshop.',
         highlights: [
             'Setorização para dormir, brincar e estudar sem conflitos.',
             'Paleta leve com elementos afetivos e linguagem atemporal.',
@@ -99,7 +99,7 @@ window.PROJECTS_DATA = {
         summary: 'Consultoria para quarto e closet com foco em organização, conforto visual e solução personalizada de armazenamento.',
         description: 'O projeto do Quarto Kaden e Closet buscou equilibrar estética contemporânea e rotina prática. A setorização foi pensada para facilitar o uso diário, com aproveitamento inteligente de cada parede e circulação preservada. A linguagem proposta valoriza sobriedade e conforto, criando um espaço funcional e bem resolvido.',
         scope: 'Consultoria completa para quarto e closet com detalhamento de uso.',
-        tools: 'AutoCAD, SketchUp e Enscape.',
+        tools: 'AutoCAD, SketchUp e V-Ray.',
         highlights: [
             'Closet com organizacao orientada por categoria de uso.',
             'Setorizacao funcional para vestir, guardar e descansar.',
@@ -119,7 +119,7 @@ window.PROJECTS_DATA = {
         summary: 'Projeto de sala com composição acolhedora e versátil para receber, relaxar e integrar usos do cotidiano.',
         description: 'A sala essência reflete quem a usa, sem precisar dizer nada. \n\nEsta sala traz autenticidade sem exageros, buscando por um ambiente calmo e atemporal pensada para o uso real valorizando o conforto e momento de pausa sem abrir mão da estética.\n\n Com um visual equilibrado, por um lado temos a neutralidade mas também o calor humano no uso de cores de forma pontual e materiais naturais.\n\n Além disso damos destaque para a estante, prezando pela organização e funcionalidade.',
         scope: 'Consultoria de interiores para area social residencial.',
-        tools: 'SketchUp, Enscape e Photoshop.',
+        tools: 'SketchUp, V-Ray e Photoshop.',
         highlights: [
             'Layout versatil para receber e relaxar.',
             'Camadas de iluminacao para diferentes cenarios.',
