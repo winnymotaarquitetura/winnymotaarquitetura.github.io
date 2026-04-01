@@ -26,9 +26,9 @@ window.PROJECTS_DATA = {
             'Linguagem contemporânea com materialidade acolhedora.'
         ],
         images: [
+            './assets/projetos/residencia-u/capa.png',
             './assets/projetos/residencia-u/foto-01.png',
-            './assets/projetos/residencia-u/foto-02.png',
-            './assets/projetos/residencia-u/foto-03.png'
+            './assets/projetos/residencia-u/foto-02.png'
         ]
     },
     'quarto-alice': {
@@ -46,9 +46,11 @@ window.PROJECTS_DATA = {
             'Marcenaria estratégica para organização da rotina.'
         ],
         images: [
+            './assets/projetos/quarto-alice/capa.png',
             './assets/projetos/quarto-alice/foto-01.png',
             './assets/projetos/quarto-alice/foto-02.png',
-            './assets/projetos/quarto-alice/foto-03.png'
+            './assets/projetos/quarto-alice/foto-03.png',
+            './assets/projetos/quarto-alice/foto-04.png'
         ]
     },
     'suite-jif': {
@@ -86,9 +88,9 @@ window.PROJECTS_DATA = {
             'Ambiente social integrado com linguagem contemporânea.'
         ],
         images: [
+            './assets/projetos/cozinha-afe/capa.png',
             './assets/projetos/cozinha-afe/foto-01.png',
-            './assets/projetos/cozinha-afe/foto-02.png',
-            './assets/projetos/cozinha-afe/foto-03.png'
+            './assets/projetos/cozinha-afe/foto-02.png'
         ]
     },
     'quarto-kaden-closet': {
@@ -106,9 +108,8 @@ window.PROJECTS_DATA = {
             'Composicao visual neutra com foco em conforto.'
         ],
         images: [
-            './assets/projetos/quarto-kaden-closet/foto-01.png',
-            './assets/projetos/quarto-kaden-closet/foto-02.png',
-            './assets/projetos/quarto-kaden-closet/foto-03.png'
+            './assets/projetos/quarto-kaden-closet/capa.png',
+            './assets/projetos/quarto-kaden-closet/foto-01.png'
         ]
     },
     'sala-essencia': {
@@ -117,7 +118,7 @@ window.PROJECTS_DATA = {
         year: '2025',
         location: 'Belo Horizonte-MG',
         summary: 'Projeto de sala com composição acolhedora e versátil para receber, relaxar e integrar usos do cotidiano.',
-        description: 'A sala essência reflete quem a usa, sem precisar dizer nada. \n\nEsta sala traz autenticidade sem exageros, buscando por um ambiente calmo e atemporal pensada para o uso real valorizando o conforto e momento de pausa sem abrir mão da estética.\n\n Com um visual equilibrado, por um lado temos a neutralidade mas também o calor humano no uso de cores de forma pontual e materiais naturais.\n\n Além disso damos destaque para a estante, prezando pela organização e funcionalidade.',
+        description: 'A sala essência reflete quem a usa, sem precisar dizer nada. \n\nEsta sala traz autenticidade sem exageros, buscando por um ambiente calmo e atemporal pensada para o uso real valorizando o conforto e momento de pausa sem abrir mão da estética.\n\n Com um visual equilibrado, por um lado temos a neutralidade mas também o calor humano no uso de cores de forma pontual e materiais naturais.\n\n Além disso damos destaque para a estante, prezando pela organização e funcionalidade. \n\nUm projeto atento aos detalhes, cada peça foi cuidadosamente escolhida valorizando o design intencional, onde tudo tem um propósito.',
         scope: 'Consultoria de interiores para area social residencial.',
         tools: 'SketchUp, V-Ray e Photoshop.',
         highlights: [
@@ -147,9 +148,7 @@ window.PROJECTS_DATA = {
             'Valorizacao da identidade do imovel no contexto urbano.'
         ],
         images: [
-            './assets/projetos/fachada-lmm/foto-01.png',
-            './assets/projetos/fachada-lmm/foto-02.png',
-            './assets/projetos/fachada-lmm/foto-03.png'
+            './assets/projetos/fachada-lmm/capa.png'
         ]
     },
     'mel-pan': {
@@ -167,6 +166,7 @@ window.PROJECTS_DATA = {
             'Ambientacao coerente com o posicionamento da marca.'
         ],
         images: [
+            './assets/projetos/mel-pan/capa.png',
             './assets/projetos/mel-pan/foto-01.png',
             './assets/projetos/mel-pan/foto-02.png',
             './assets/projetos/mel-pan/foto-03.png'
@@ -187,9 +187,8 @@ window.PROJECTS_DATA = {
             'Proposta de uso com impacto social e urbano.'
         ],
         images: [
-            './assets/projetos/centro-cultural/foto-01.png',
-            './assets/projetos/centro-cultural/foto-02.png',
-            './assets/projetos/centro-cultural/foto-03.png'
+            './assets/projetos/centro-cultural/capa.png',
+            './assets/projetos/centro-cultural/foto-01.png'
         ]
     }
 };
