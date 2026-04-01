@@ -85,5 +85,27 @@
             </section>
         </div>
     </main>
+
+    <div id="project-lightbox" class="fixed inset-0 z-50 hidden" aria-hidden="true">
+        <div class="project-lightbox-backdrop absolute inset-0 bg-stone-900/90"></div>
+
+        <div class="relative h-full w-full flex items-center justify-center p-4 md:p-8">
+            <button id="lightbox-close" type="button" class="absolute top-4 right-4 md:top-6 md:right-6 inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/40 text-white hover:border-earth hover:text-earth transition-colors" aria-label="Fechar visualizacao de imagem">
+                <i class="ph ph-x text-xl"></i>
+            </button>
+
+            <button id="lightbox-prev" type="button" class="absolute left-2 md:left-6 inline-flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/40 text-white hover:border-earth hover:text-earth transition-colors" aria-label="Imagem anterior">
+                <i class="ph ph-caret-left text-lg md:text-xl"></i>
+            </button>
+
+            <img id="lightbox-image" src="" alt="Imagem ampliada do projeto" class="max-h-[86vh] w-auto max-w-full object-contain rounded-sm shadow-2xl">
+
+            <button id="lightbox-next" type="button" class="absolute right-2 md:right-6 inline-flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/40 text-white hover:border-earth hover:text-earth transition-colors" aria-label="Proxima imagem">
+                <i class="ph ph-caret-right text-lg md:text-xl"></i>
+            </button>
+
+            <p id="lightbox-counter" class="absolute bottom-5 left-1/2 -translate-x-1/2 text-xs md:text-sm tracking-wider uppercase text-white/90"></p>
+        </div>
+    </div>
 </body>
 </html>

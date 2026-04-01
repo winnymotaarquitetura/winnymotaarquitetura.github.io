@@ -37,3 +37,37 @@
     border-color: #b48a73;
     box-shadow: 0 0 0 1px #b48a73;
 }
+
+#project-main-image {
+    cursor: zoom-in;
+}
+
+#project-lightbox {
+    animation: lightboxFadeIn 180ms ease;
+}
+
+#lightbox-image {
+    animation: lightboxImageIn 220ms ease;
+}
+
+@keyframes lightboxFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes lightboxImageIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
