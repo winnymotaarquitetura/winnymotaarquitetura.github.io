@@ -37,7 +37,7 @@ window.PROJECTS_DATA = {
         year: '2024',
         location: 'Salvador-BA',
         summary: 'Projeto de quarto infantil com proposta lúdica, funcional e atemporal, considerando rotina, estudo e descanso.',
-        description: 'O projeto do Quarto Alice foi desenvolvido para traduzir delicadeza e praticidade no mesmo ambiente. A composição de marcenaria, paleta suave e iluminação planejada busca criar um espaço confortável para diferentes fases de uso. O layout foi pensado para otimizar área útil e manter organização, sem abrir mão de identidade visual e aconchego.',
+        description: 'Magia e conforto se encontram.\n\nEste quarto de bebê, foi pensado em trazer a magia da história de Alice do paísdas maravilhas transmitindo conforto etranquilidade, ao mesmo tempo cria-seum espaço planejado que acompanha ocrescimento da criança, utilizandodetalhes atemporais e mobiliário neutromantendo a identidade e funcionalidade.',
         scope: 'Consultoria de interiores, layout, marcenaria e visualização 3D.',
         tools: 'SketchUp, Enscape e Photoshop.',
         highlights: [

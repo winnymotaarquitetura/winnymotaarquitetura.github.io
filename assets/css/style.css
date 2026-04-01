@@ -38,6 +38,11 @@
     box-shadow: 0 0 0 1px #b48a73;
 }
 
+#project-summary,
+#project-description {
+    white-space: pre-line;
+}
+
 #project-main-image {
     cursor: zoom-in;
 }
