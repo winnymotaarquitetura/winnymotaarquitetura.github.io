@@ -117,7 +117,7 @@ window.PROJECTS_DATA = {
         year: '2025',
         location: 'Belo Horizonte-MG',
         summary: 'Projeto de sala com composição acolhedora e versátil para receber, relaxar e integrar usos do cotidiano.',
-        description: 'A Sala Essencia foi concebida para traduzir personalidade com elegância e conforto. O estudo de layout, mobiliário e iluminação orientou a criação de um ambiente convidativo, com boa leitura espacial e uso equilibrado de materiais. A proposta favorece permanência e convivência sem comprometer fluidez e funcionalidade.',
+        description: 'A sala essência reflete quem a usa, sem precisar dizer nada. \n\nEsta sala traz autenticidade sem exageros, buscando por um ambiente calmo e atemporal pensada para o uso real valorizando o conforto e momento de pausa sem abrir mão da estética.\n\n Com um visual equilibrado, por um lado temos a neutralidade mas também o calor humano no uso de cores de forma pontual e materiais naturais.\n\n Além disso damos destaque para a estante, prezando pela organização e funcionalidade.',
         scope: 'Consultoria de interiores para area social residencial.',
         tools: 'SketchUp, Enscape e Photoshop.',
         highlights: [
